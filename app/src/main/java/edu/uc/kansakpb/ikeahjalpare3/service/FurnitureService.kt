@@ -27,7 +27,7 @@ class FurnitureService {
             override fun onFailure(call: Call<ArrayList<Furniture>>, t: Throwable) {
                 val j = 1 + 1
                 val i = 1 + 1
-                // throw Exception("Unable to read json file")
+                // throw Exception("Unable to parse json file")
             }
 
         })

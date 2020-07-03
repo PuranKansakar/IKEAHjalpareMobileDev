@@ -9,6 +9,8 @@ class MainViewModel : ViewModel() {
     var furnitures: MutableLiveData<ArrayList<Furniture>> = MutableLiveData<ArrayList<Furniture>>()
     var furnitureService: FurnitureService = FurnitureService()
 
+    // TODO: call fetchFurnitures() at init time
+
     fun fetchFurnitures(furnitureName: String) {
         furnitures = furnitureService.fetchFurnitures(furnitureName)
     }

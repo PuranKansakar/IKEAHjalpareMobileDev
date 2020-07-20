@@ -10,5 +10,5 @@ interface IFurnitureDAO {
     fun getAllFurnitures(): retrofit2.Call<ArrayList<Furniture>>
 
     @GET("/dbc64a5b111a92183e33.json")
-    fun getFurnitures(furnitureName: String) : retrofit2.Call<ArrayList<Furniture>>
+    fun getFurnitures(furnitureName: String) : retrofit2.Call <ArrayList<Furniture>>
 }

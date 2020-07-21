@@ -6,9 +6,9 @@ import retrofit2.http.GET
 
 interface IFurnitureDAO {
     //Created DAO class for
-    @GET("PLACE REMAINING LINK HERE")
+    @GET("/ikeafurniture.json")
     fun getAllFurnitures(): retrofit2.Call<ArrayList<Furniture>>
 
-    @GET("PLACE REMAINING LINK HERE")
+    @GET("/ikeafurniture.json")
     fun getFurnitures(furnitureName: String) : retrofit2.Call <ArrayList<Furniture>>
 }

@@ -12,3 +12,5 @@ interface IFurnitureDAO {
     @GET("/ikeafurniture.json")
     fun getFurnitures(furnitureName: String) : retrofit2.Call <ArrayList<Furniture>>
 }
+
+// Link to .json file: https://ikeafurnituredb.s3.us-east-2.amazonaws.com/ikeafurniture.json
